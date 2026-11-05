@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HHH RP Launcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+    <aside class="sidebar">
+        <div class="logo">HHH <span>RP</span></div>
+
+        <nav class="navigation">
+            <button class="nav-button active" data-page="home">⌂ <span>Главная</span></button>
+            <button class="nav-button" data-page="news">▤ <span>Новости</span></button>
+            <button class="nav-button" data-page="mods">⚒ <span>Модификации</span></button>
+            <button class="nav-button" data-page="settings">⚙ <span>Настройки</span></button>
+            <button class="nav-button" data-page="profile">● <span>Профиль</span></button>
+        </nav>
+
+        <div class="community-links" aria-label="Сообщество HHH RP">
+            <div class="community-links-title">МЫ В СЕТИ</div>
+            <button class="community-link" data-community-link="site" type="button">
+                <span class="community-link-icon">↗</span><span>Сайт</span>
+            </button>
+            <button class="community-link" data-community-link="discord" type="button">
+                <span class="community-link-icon">◉</span><span>Discord</span>
+            </button>
+            <button class="community-link" data-community-link="youtube" type="button">
+                <span class="community-link-icon">▶</span><span>YouTube проекта</span>
+            </button>
+        </div>
+
+        <div class="sidebar-footer">
+            HHH RP Launcher<br>
+           <span>v0.0.1</span>
+        </div>
+    </aside>
+
+    <main class="main-content">
+
+        <section class="page active" id="home">
+            <section class="hero">
+                <div class="hero-overlay">
+                    <h1>HHH <span>RP</span></h1>
+                    <p>Твоя история начинается здесь</p>
+                    <button class="play-button">ИГРАТЬ</button>
+                    <div id="sync-status" class="sync-status">
+                        Докачиваем моды, пожалуйста подождите!
+                    </div>
+                </div>
+            </section>
+
+            <section class="cards">
+                <button class="card news-card" data-page="news">
+                    <span>Новости</span>
+                    <i class="card-arrow">›</i>
+                </button>
+
+                <button class="card mods-card" data-page="mods">
+                    <span>Модификации</span>
+                    <i class="card-arrow">›</i>
+                </button>
+
+                <button class="card settings-card" data-page="settings">
+                    <img class="home-tile-icon" src="assets/settings-icon.png" alt="">
+                    <span>Настройки</span>
+                    <i class="card-arrow">›</i>
+                </button>
+
+                <button class="card profile-card" data-page="profile">
+                    <img class="home-tile-icon" src="assets/profile-icon.png" alt="">
+                    <span>Профиль</span>
+                    <i class="card-arrow">›</i>
+                </button>
+            </section>
+        </section>
+
+        
+<section class="page inner-page" id="news">
+    <h1>Новости</h1>
+    <p class="page-subtitle">Последние события HHH RP</p>
+
+    <article class="news-article">
+        <div class="news-article-date">HHH ROLEPLAY · ХОТФИКС</div>
+        <h2>Хотфикс (0.01.2)</h2>
+
+        <p>Мы обновили моды с W212 и M5 E60 с адаптацией под версию BeamNG 0.40.</p>
+
+        <p>Также — 08-09-99.</p>
+
+        <h3>Инструкция:</h3>
+
+        <ol>
+            <li>Скачайте мод с Google Диска, предварительно удалив старую версию мода.</li>
+            <li>Положите его в папку со всеми нашими модами.</li>
+            <li><strong>НЕ ЗАБУДЬТЕ ПОЧИСТИТЬ КЕШ ПОСЛЕ УСТАНОВКИ</strong> (рекомендация автора мода).</li>
+        </ol>
+    </article>
+
+    <article class="news-article">
+        <div class="news-article-date">HHH ROLEPLAY · ОБНОВЛЕНИЕ</div>
+        <h2>Хотфикс 0.0.1.1</h2>
+
+        <p>Мы обновили мод Bmw m5 f90 до свежей версии</p>
+
+        <h3>Инструкция:</h3>
+
+        <ol>
+            <li>Скачайте мод с гугл диска, перед этим удалив старую версию мода.</li>
+            <li>Положите его в папку со всеми нашими модами.</li>
+            <li><strong>НЕ ЗАБУДЬТЕ ПОЧИСТИТЬ КЕШ ПОСЛЕ УСТАНОВКИ</strong> (рекомендация автора мода).</li>
+        </ol>
+
+        <p>Также мы добавили WeatherFX от Royal Renderings, e34 addon f4nch, Procyon avior.</p>
+
+        <p>Повторите 2 первых шага, и мод будет на вашем клиенте BeamNG.</p>
+    </article>
+</section>
+
+
+        <section class="page inner-page" id="mods">
+            <div class="mods-heading">
+                <div>
+                    <span class="mods-kicker">HHH ROLEPLAY</span>
+                    <h1>Модификации</h1>
+                    <p class="page-subtitle">
+                        Всё необходимое для игры на нашем сервере
+                    </p>
+                </div>
+                <div class="mods-heading-icon">⚙</div>
+            </div>
+
+            <div class="mods-banner">
+                <div class="mods-banner-overlay">
+                    <span class="mods-label">ОФИЦИАЛЬНЫЙ ПАК МОДОВ</span>
+                    <h2>Твой игровой мир</h2>
+                    <p>
+                        Скачай актуальные модификации HHH RP,
+                        чтобы получить полный игровой опыт.
+                    </p>
+                </div>
+            </div>
+
+            <div class="mods-download-panel">
+                <div class="mods-download-icon">↓</div>
+
+                <div class="mods-download-info">
+                    <span class="mods-kicker">DOWNLOAD CENTER</span>
+                    <h2>Скачать модификации</h2>
+                    <p>
+                        В нашей папке собраны модификации,
+                        необходимые для комфортной игры на сервере.
+                    </p>
+
+                    <button class="mods-download-button" id="open-mods-link">
+                        <span>↓</span>
+                        ОТКРЫТЬ ПАПКУ С МОДАМИ
+                        <span class="button-arrow">›</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="mods-notice">
+                <span class="notice-icon">i</span>
+                <div>
+                    <strong>Перед первым подключением</strong>
+                    <p>Рекомендуем заранее скачать и установить необходимые модификации.</p>
+                </div>
+            </div>
+        </section>
+
+       
+<section class="page inner-page" id="settings">
+    <h1>Настройки</h1>
+    <p class="page-subtitle">Управление HHH RP Launcher</p>
+
+    <div class="settings-tabs" role="tablist" aria-label="Разделы настроек">
+        <button class="settings-tab active" data-settings-tab="behavior">Поведение</button>
+        <button class="settings-tab" data-settings-tab="notifications">Уведомления</button>
+        <button class="settings-tab" data-settings-tab="maintenance">Обслуживание</button>
+        <button class="settings-tab" data-settings-tab="paths">Пути</button>
+        <button class="settings-tab" data-settings-tab="appearance">Внешний вид</button>
+    </div>
+
+    <div class="settings-panel active" data-settings-panel="behavior">
+        <div class="settings-section-heading"><h2>Поведение лаунчера</h2><p>Что делать HHH RP Launcher во время игры и при закрытии.</p></div>
+        <div class="settings-list">
+            <label class="settings-option"><span><strong>Сворачивать после запуска игры</strong><small>Лаунчер будет скрываться после успешного запуска BeamMP.</small></span><input type="checkbox" data-pref="minimizeAfterPlay"></label>
+            <label class="settings-option"><span><strong>Закрывать лаунчер после выхода из игры</strong><small>Завершать HHH RP Launcher, когда BeamMP закроется.</small></span><input type="checkbox" data-pref="closeAfterGame"></label>
+            <label class="settings-option"><span><strong>Запускать вместе с Windows</strong><small>Добавить HHH RP Launcher в автозагрузку текущего пользователя.</small></span><input type="checkbox" data-pref="launchOnStartup"></label>
+            <label class="settings-option"><span><strong>Подтверждать выход</strong><small>Спрашивать подтверждение перед закрытием лаунчера.</small></span><input type="checkbox" data-pref="confirmExit"></label>
+        </div>
+    </div>
+
+    <div class="settings-panel" data-settings-panel="notifications">
+        <div class="settings-section-heading"><h2>Системные уведомления</h2><p>Показывать уведомления Windows о важных событиях лаунчера.</p></div>
+        <div class="settings-list">
+            <label class="settings-option"><span><strong>Успешная проверка модов</strong><small>Сообщить, когда моды проверены и игра готова к запуску.</small></span><input type="checkbox" data-pref="notifyModsChecked"></label>
+            <label class="settings-option"><span><strong>Ошибки запуска</strong><small>Показывать системное уведомление, если запуск не удался.</small></span><input type="checkbox" data-pref="notifyLaunchErrors"></label>
+            <label class="settings-option"><span><strong>Сервер недоступен</strong><small>Уведомлять, если HHH RP не отвечает при проверке перед запуском.</small></span><input type="checkbox" data-pref="notifyServerUnavailable"></label>
+        </div>
+    </div>
+
+    <div class="settings-panel" data-settings-panel="maintenance">
+        <div class="settings-section-heading"><h2>Обслуживание</h2><p>Быстрый доступ к файлам лаунчера и его настройкам.</p></div>
+        <div class="settings-list">
+            <div class="settings-item"><div><h2>Папка лаунчера</h2><p>Открыть папку с файлами HHH RP Launcher.</p></div><button class="settings-browse" id="open-launcher-folder">Открыть</button></div>
+            <div class="settings-item"><div><h2>Логи лаунчера</h2><p>Открыть папку с журналами работы Electron.</p></div><button class="settings-browse" id="open-launcher-logs">Открыть</button></div>
+            <div class="settings-item"><div><h2>Сбросить настройки лаунчера</h2><p>Вернуть параметры поведения и уведомлений к значениям по умолчанию. Пути к играм не изменятся.</p></div><button class="settings-browse settings-secondary" id="reset-launcher-preferences">Сбросить</button></div>
+        </div>
+        <div id="maintenance-status" class="settings-status"></div>
+    </div>
+
+    <div class="settings-panel" data-settings-panel="paths">
+        <div class="settings-section-heading"><h2>Пути к файлам</h2><p>Расположение BeamMP, папки Resources и установки BeamNG.drive.</p></div>
+        <div class="settings-list">
+            <div class="settings-item"><div><h2>Папка BeamMP</h2><p>Папка, в которой находится BeamMP-Launcher.exe</p><div class="settings-path" id="beammp-path">Не выбрана</div></div><button class="settings-browse" data-select-folder="beammpPath">Выбрать</button></div>
+            <div class="settings-item"><div><h2>Папка с модами</h2><p>Папка Resources, в которую устанавливаются моды</p><div class="settings-path" id="mods-path">Не выбрана</div></div><button class="settings-browse" data-select-folder="beammpModsPath">Выбрать</button></div>
+            <div class="settings-item"><div><h2>Установка BeamNG.drive</h2><p>Папка, в которой находится BeamNG.drive.exe</p><div class="settings-path" id="beamng-path">Не найдена</div></div><button class="settings-browse" data-select-folder="beamngPath">Выбрать</button></div>
+            <div id="settings-status" class="settings-status"></div>
+        </div>
+    </div>
+
+    <div class="settings-panel" data-settings-panel="appearance">
+        <div class="settings-section-heading">
+            <h2>Внешний вид</h2>
+            <p>Настрой оформление HHH RP Launcher под себя.</p>
+        </div>
+
+        <div class="appearance-card">
+            <div class="appearance-card-heading">
+                <h3>Цвет интерфейса</h3>
+                <p>Выбери основной акцентный цвет лаунчера.</p>
+            </div>
+
+            <div class="appearance-colors">
+                <button class="appearance-color active" data-accent-color="red"
+                    style="--swatch-color:#c93434" title="Красный"></button>
+                <button class="appearance-color" data-accent-color="blue"
+                    style="--swatch-color:#3985df" title="Синий"></button>
+                <button class="appearance-color" data-accent-color="purple"
+                    style="--swatch-color:#9560d9" title="Фиолетовый"></button>
+                <button class="appearance-color" data-accent-color="orange"
+                    style="--swatch-color:#df8539" title="Оранжевый"></button>
+            </div>
+        </div>
+
+        <div class="settings-list appearance-options">
+            <label class="settings-option">
+                <span>
+                    <strong>Свечение интерфейса</strong>
+                    <small>Мягкое свечение активных элементов.</small>
+                </span>
+                <input type="checkbox" id="appearance-glow" checked>
+            </label>
+
+            <label class="settings-option">
+                <span>
+                    <strong>Анимации интерфейса</strong>
+                    <small>Плавные переходы и эффекты кнопок.</small>
+                </span>
+                <input type="checkbox" id="appearance-animations" checked>
+            </label>
+        </div>
+
+        <div id="appearance-status" class="settings-status"></div>
+    </div>
+</section>
+
+
+        <section class="page inner-page" id="profile">
+            <h1>Профиль</h1>
+            <p class="page-subtitle">Авторизация аккаунта BeamMP</p>
+            <div class="info-panel auth-panel">
+                <h2>Аккаунт BeamMP</h2>
+                <p>Укажи данные своего существующего аккаунта BeamMP. Пароль хранится в зашифрованном виде средствами Windows и не записывается в открытый текст.</p>
+                <label class="auth-label" for="beammp-username">Логин BeamMP</label>
+                <input id="beammp-username" class="auth-input" type="text" autocomplete="username" maxlength="128" placeholder="Твой логин BeamMP">
+                <label class="auth-label" for="beammp-password">Пароль BeamMP</label>
+                <input id="beammp-password" class="auth-input" type="password" autocomplete="current-password" maxlength="512" placeholder="Пароль BeamMP">
+                <div class="auth-actions">
+                    <button class="auth-save-button" id="save-beampm-auth">Сохранить данные</button>
+                    <button class="auth-clear-button" id="clear-beampm-auth">Удалить сохранённые данные</button>
+                </div>
+                <div id="beammp-auth-status" class="auth-status">Проверяем сохранённый аккаунт...</div>
+                <div class="guest-mode-block">
+                    <h3>Гостевой режим</h3>
+                    <p>Запуск без сохранённого логина и пароля BeamMP. Возможность входа гостем зависит от настроек сервера.</p>
+                    <button class="auth-guest-button" id="guest-mode-button" type="button">Играть в гостевом режиме</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<script src="ui.js"></script>
+</body>
+</html>
